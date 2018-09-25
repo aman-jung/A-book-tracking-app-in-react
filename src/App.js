@@ -45,7 +45,7 @@ class BooksApp extends Component {
             <Route
               exact
               path="/search"
-              render={() => <Search moveShelf={this.moveShelf} />}
+              render={() => <Search moveShelf={this.moveShelf} books={books} />}
             />
             <Route
               exact
